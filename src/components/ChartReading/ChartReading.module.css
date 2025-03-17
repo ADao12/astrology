@@ -1,0 +1,40 @@
+.readingCard {
+  margin-top: 24px;
+}
+
+.palaceAnalysis {
+  margin-bottom: 24px;
+  padding: 16px;
+  border: 1px solid #f0f0f0;
+  border-radius: 4px;
+}
+
+.palaceAnalysis:last-child {
+  margin-bottom: 0;
+}
+
+.palaceAnalysis:hover {
+  background-color: #fafafa;
+}
+
+.pattern {
+  margin-bottom: 16px;
+}
+
+.starReading {
+  margin-bottom: 24px;
+}
+
+.pattern :global(.ant-tag) {
+  margin-right: 8px;
+  font-size: 14px;
+}
+
+.yearlyFortune {
+  margin-top: 16px;
+}
+
+.scoreTag {
+  font-size: 16px;
+  padding: 4px 12px;
+} 

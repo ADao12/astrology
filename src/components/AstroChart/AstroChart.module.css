@@ -1,0 +1,62 @@
+.chartCard {
+  margin-top: 24px;
+}
+
+.chartGrid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 16px;
+  padding: 16px;
+}
+
+.palace {
+  border: 1px solid #d9d9d9;
+  border-radius: 4px;
+  padding: 12px;
+  min-height: 120px;
+}
+
+.bodyPalace {
+  background-color: #f0f5ff;
+  border-color: #1890ff;
+}
+
+.palaceHeader {
+  font-weight: bold;
+  color: #1890ff;
+}
+
+.starList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.star {
+  display: flex;
+  align-items: center;
+  padding: 2px 8px;
+  border-radius: 4px;
+  font-size: 12px;
+  cursor: help;
+}
+
+.major {
+  background-color: #f5222d;
+  color: white;
+}
+
+.minor {
+  background-color: #faad14;
+  color: white;
+}
+
+.aspect {
+  font-size: 10px;
+  padding: 1px 4px;
+  margin-left: 4px;
+  background-color: #1890ff;
+  color: white;
+  border-radius: 2px;
+} 

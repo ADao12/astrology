@@ -1,0 +1,62 @@
+.reportContainer {
+  padding: 24px;
+  background: white;
+  max-width: 210mm;
+  margin: 0 auto;
+}
+
+.reportHeader {
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.basicInfo {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-top: 16px;
+}
+
+.section {
+  margin: 24px 0;
+}
+
+.starReading {
+  margin-bottom: 16px;
+  page-break-inside: avoid;
+}
+
+.palaceGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+  margin-top: 16px;
+}
+
+.palaceCard {
+  border: 1px solid #f0f0f0;
+  padding: 16px;
+  border-radius: 8px;
+  page-break-inside: avoid;
+}
+
+.reportFooter {
+  margin-top: 32px;
+  text-align: center;
+  padding-top: 16px;
+  border-top: 1px solid #f0f0f0;
+}
+
+@media print {
+  .reportContainer {
+    padding: 0;
+  }
+
+  .section {
+    page-break-inside: avoid;
+  }
+
+  .palaceGrid {
+    page-break-before: always;
+  }
+} 
